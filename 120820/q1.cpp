@@ -14,7 +14,7 @@ int main()
 	printf("Enter the length of array elements: ");
 	cin>>n;
 	
-
+	
 	for(int i=0;i<n;i++){
 		cout<<"Enter array element " << i << " :";
 		cin>> arr+i;
