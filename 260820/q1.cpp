@@ -1,6 +1,4 @@
-//UTSAB OJHA
-//119CS0145
-// G++ compiler
+
 
 #include <iostream>
 using namespace std;
@@ -52,8 +50,6 @@ int main()
     char v;
     char s;
     
-    
-    search(head,2);
     cout<<"How many value you want to enter?\n";
     cin >> k;
     for(i=0;i<k;i++){
