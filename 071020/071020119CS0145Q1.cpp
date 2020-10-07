@@ -1,3 +1,7 @@
+//UTSAB OJHA
+//119CS0145
+//g++ compiler
+
 #include<iostream>
 #include<stdlib.h>
 using namespace std;
