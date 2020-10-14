@@ -1,3 +1,7 @@
+//UTSAB OJHA
+//119CS0145
+//g++ compiler
+
 #include<iostream>
 using namespace std;
 struct Node{
@@ -61,7 +65,7 @@ void BSTInorderStack(struct Node* root,struct Node* arr[])
 		}
 		curr=arr[top];
 		top--;
-		printf("%c ",curr->data);
+		cout << curr->data;
 		curr=curr->right;
 	}	
 }
@@ -71,12 +75,13 @@ int main()
 	struct Node* arr[100];
     int len,i;
     char v;
-    cout << "Inter length: ";
+    cout << "Enter How many value you want to Enter: ";
     cin >> len;
-    cout << "Inter values: \n";
+    cout << "Enter values and Prass Enter: \n";
     for(i=0;i<len; i++){
        cin >> v;
        root=BSTInsert(v,root);
     }
+    cout << "Inorder :";
 	BSTInorderStack(root,arr);
 }
